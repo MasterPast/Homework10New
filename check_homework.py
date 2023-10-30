@@ -66,7 +66,8 @@ class TestHomeWork10(unittest.TestCase):
         """
         1. Класс Field в коді оголошено
         """
-        assert hasattr(main, "Field"), """1. Класс Field в коді не оголошено!"""
+        assert hasattr(
+            main, "Field"), """1. Класс Field в коді не оголошено!"""
 
     def test_002(self):
         """
@@ -91,7 +92,8 @@ class TestHomeWork10(unittest.TestCase):
         """
         4. Класс Phone в коді оголошено
         """
-        assert hasattr(main, "Phone"), """4. Класс Phone в коді не оголошено!"""
+        assert hasattr(
+            main, "Phone"), """4. Класс Phone в коді не оголошено!"""
 
     def test_005(self):
         """
@@ -170,7 +172,8 @@ class TestHomeWork10(unittest.TestCase):
         """
         10. Класс Record в коді оголошено
         """
-        assert hasattr(main, "Record"), """10. Класс Record в коді не оголошено!"""
+        assert hasattr(
+            main, "Record"), """10. Класс Record в коді не оголошено!"""
 
     def test_011(self):
         """
